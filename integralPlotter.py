@@ -10,7 +10,7 @@ elaborated = smp.lambdify(x, raw, np)
 
 print(raw)
 
-x = np.arange(-10,10,0.1)
+x = np.arange(0,10,0.1)
 y = elaborated(x)
 
 plt.title("Integral of cos(x)")
